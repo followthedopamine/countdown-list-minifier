@@ -5,6 +5,7 @@ for (let h2 of document.getElementsByTagName("h2")) {
 }
 
 // For all items in list:
+// TODO: Get quantities
 
 const h3s = document.getElementsByTagName("h3");
 
