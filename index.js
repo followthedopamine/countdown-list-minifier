@@ -15,10 +15,11 @@ const newBody = document.createElement("body");
 
 for (let h3 of h3s) {
   if (h3.innerHTML.charAt(1) != "$") {
-    let newH3 = document.createElement("p");
+    let newH3 = document.createElement("li");
     newH3.innerHTML += h3.innerHTML;
-    newH3.style.marginBottom = "4px";
+    newH3.style.margin = "4px 40px";
     newH3.style.textTransform = "capitalize";
+    newH3.style.listStyle = "none";
     newBody.appendChild(newH3);
   }
 }
